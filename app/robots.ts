@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://koudous-2-0.vercel.app/sitemap.xml',
+    sitemap: 'https://koudousdaouda-portfolio.vercel.app/sitemap.xml',
   }
 }
