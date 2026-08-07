@@ -1,4 +1,3 @@
-import ScrollRouter from "../components/client/ScrollRouter";
 import GlassCard from "../components/ui/GlassCard";
 import StepsTimeline from "../components/client/StepsTimeline";
 import Header from "../components/ui/Header";
@@ -63,8 +62,6 @@ export default function Home() {
         </dl>
       </div>
 
-      <ScrollRouter />
-      
       {/* Hero Section (100% Textuel & Typographique) */}
       <section className="hero-section" style={{ 
         minHeight: "100vh", 
