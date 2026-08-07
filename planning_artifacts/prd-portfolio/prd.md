@@ -25,8 +25,7 @@ Un site portfolio personnel interactif, conçu en Light Mode (Design 2030, Glass
 
 ## 3. Fonctionnalités Clés (Features)
 1. **Lecteur Vidéo "Scroll-Scrubbing" :** La lecture des vidéos d'illustration des 13 étapes est entièrement synchronisée avec le défilement (scroll) de l'utilisateur. Le scroll vers le bas fait avancer la vidéo, le scroll vers le haut la recule, offrant un contrôle absolu sans aucun clic.
-2. **Deep Dive Panels Interactifs :** Des panneaux latéraux complètent les vidéos. Ils ne contiennent pas que du texte, mais des diagrammes d'architecture et des extraits de code. Un survol (hover) sur une ligne de code met en évidence l'instant précis de la vidéo où ce code est écrit.
-3. **GEO-Smart Resume (Personnalisation par Géolocalisation) :** Le site détecte la localisation approximative du recruteur et adapte dynamiquement les appels à l'action (ex: "Prêt à rejoindre votre équipe à Paris ou en full-remote"). Le PDF du CV généré peut également inclure une page de garde ciblée.
+2. **GEO-Smart Resume (Personnalisation par Géolocalisation) :** Le site détecte la localisation approximative du recruteur et adapte dynamiquement les appels à l'action (ex: "Prêt à rejoindre votre équipe à Paris ou en full-remote"). Le PDF du CV généré peut également inclure une page de garde ciblée.
 
 ## 4. Exigences Non-Fonctionnelles (Performances, SEO, GEO)
 Pour atteindre l'objectif de "10000% SEO/GEO", le projet implémentera les stratégies techniques d'avant-garde (2025-2030) suivantes :

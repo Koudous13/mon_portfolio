@@ -17,6 +17,7 @@ J'y ai intégré l'approche en **Vertical Slice** (tranches verticales) et l'aud
 
 3. **(Requis)** `[CA]` **Architecture** (`bmad-architecture`)
    *Description :* Définir l'architecture technique globale du projet (stack frontend, backend, base de données).
+3.1 : /bmad-spec : Si vous souhaitez d'abord unifier ces documents dans un contrat technique unique avant le découpage en tickets.
 4. **(Requis)** `[CE]` **Create Epics and Stories** (`bmad-create-epics-and-stories`)
    *Description :* **C'est ici que ton concept de Vertical Slice prend vie.** Nous découpons l'application en User Stories. Chaque Story est pensée comme une tranche verticale (une fonctionnalité complète qui traverse la base de données, le backend, et le frontend).
 5. **(Requis)** `[IR]` **Check Implementation Readiness** (`bmad-check-implementation-readiness`)
