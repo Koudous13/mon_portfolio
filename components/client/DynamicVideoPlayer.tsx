@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useRef, useState, useEffect } from "react";
-import { Blurhash } from "react-blurhash";
 
 interface DynamicVideoPlayerProps {
   videoSrc?: string;
@@ -57,14 +56,7 @@ export default function DynamicVideoPlayer({ videoSrc, blurhash, tracks }: Dynam
             pointerEvents: "none",
           }}
         >
-          <Blurhash
-            hash={blurhash}
-            width="100%"
-            height="100%"
-            resolutionX={32}
-            resolutionY={32}
-            punch={1}
-          />
+          <div style={{ width: "100%", height: "100%", background: "#222" }} />
         </div>
       )}
 
