@@ -1,6 +1,5 @@
 import GlassCard from "../components/ui/GlassCard";
 import StepsTimeline from "../components/client/StepsTimeline";
-import { jsonLd } from "./layout";
 import Header from "../components/ui/Header";
 import ValueTimeline from "../components/ui/ValueTimeline";
 import { stepsData } from "../data/steps";
@@ -265,11 +264,6 @@ export default function Home() {
           </div>
         </GlassCard>
       </section>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
     </>
   );
 }

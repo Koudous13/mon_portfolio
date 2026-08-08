@@ -44,14 +44,6 @@ export default function Header() {
           fontSize: "0.9rem"
         }}>Contact</a>
       </nav>
-      
-      <style>{`
-        @media (max-width: 600px) {
-          .hide-on-mobile {
-            display: none !important;
-          }
-        }
-      `}</style>
     </header>
   );
 }
