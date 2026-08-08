@@ -4,6 +4,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  env: {
+    CACHE_BUSTER: "123456",
+  },
+  images: {
+    domains: ['commondatastorage.googleapis.com'],
+  },
   async rewrites() {
     return [
       {
