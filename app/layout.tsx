@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+export const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -96,12 +96,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
       <body className={inter.className}>
         {children}
       </body>
