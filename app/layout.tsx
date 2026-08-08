@@ -98,15 +98,6 @@ export default function RootLayout({
     <html lang="fr" suppressHydrationWarning>
       <body className={inter.className}>
         {children}
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.onerror = function(message, source, lineno, colno, error) {
-            document.body.innerHTML = '<div style="padding:2rem;background:red;color:white;min-height:100vh;z-index:999999;position:relative;"><h1>CRITICAL ERROR</h1><pre>' + message + '\\n\\n' + (error ? error.stack : '') + '</pre></div>';
-            return true;
-          };
-          window.addEventListener("unhandledrejection", function(event) {
-            document.body.innerHTML = '<div style="padding:2rem;background:red;color:white;min-height:100vh;z-index:999999;position:relative;"><h1>UNHANDLED PROMISE REJECTION</h1><pre>' + event.reason + '</pre></div>';
-          });
-        `}} />
       </body>
     </html>
   );
